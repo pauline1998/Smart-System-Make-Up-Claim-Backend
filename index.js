@@ -8,6 +8,8 @@ const app = express();
 
 const connectDB = require('./db/connect');
 
+//commenting about github push
+
 const allRoutes = require('./routes/index');
 
 const notFoundMiddleware = require('./middleware/not-found');
